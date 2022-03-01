@@ -153,7 +153,19 @@ button{
   float: left;
   width: 28.33%;
   margin: 35px 10px;
+  transform: scale(0.8);
+  transition: all 0.5s ease-out;
 }
+.CD:hover{
+  transform: scale(0.9) translateY(-10px);
+}
+.BTN-Text{
+  font-weight: 500;
+  --text-opacity: 1;
+    color: #1678FB;
+    text-decoration: none;
+}
+
 .IMG{
   margin-top: 15px;
   border-radius: 50%;
@@ -170,9 +182,16 @@ button{
     border-radius: 20px;
     background: #fff;
 }
+.card-title{
+height: 2rem;
+}
+.card-text{
+height:11rem;
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .card-body {
   padding: 2px 16px;
+height: 15rem;
 }
